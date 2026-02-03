@@ -42,6 +42,7 @@ There is a need for a **fully virtual conveyor system** that allows users to:
 - Implement multiple conveyor lines and junctions  
 - Automate routing of products between conveyors  
 - Test sequencing logic in Emulate3D simulation  
+- 
 ---
 
 ### 4. System Integration
@@ -52,6 +53,7 @@ There is a need for a **fully virtual conveyor system** that allows users to:
 ### 5. Documentation & Reporting
 - Maintain full project documentation  
 - Include PLC logic diagrams, HMI screenshots, and simulation results  
+- Testing Checksheets
 - Prepare presentation/demo materials for final review  
 
 ---
