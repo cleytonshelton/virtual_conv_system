@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virtual Conveyor System | Project Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <div class="header-row">
+        <div>
+          <h1>Virtual Conveyor System — Project Gallery</h1>
+          <p class="subtitle">
+            Official screenshot overview of the virtual conveyor capstone, including HMI monitoring,
+            I/O connectivity, prototype development, and integration diagnostics.
+          </p>
+        </div>
+        <a class="page-link" href="about.html">About This Project</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="gallery" aria-label="Project image gallery">
+      <article class="card">
+        <div class="image-wrap">
+          <img src="images/IO_Browser.png" alt="I/O browser configuration and data mapping view" class="gallery-image" tabindex="0" />
+        </div>
+        <div class="content">
+          <h2>I/O Browser Mapping</h2>
+          <p>Shows system tag and I/O mapping used to connect controls, sensors, and emulation components.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="image-wrap">
+          <img src="images/added_PE_MU.png" alt="Photoeye and motor unit integration panel" class="gallery-image" tabindex="0" />
+        </div>
+        <div class="content">
+          <h2>Sensor & Motor Integration</h2>
+          <p>Highlights added photoeye and motor unit elements used to support conveyor logic and flow detection.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="image-wrap">
+          <img src="images/finished_prototype.png" alt="Final virtual conveyor prototype interface" class="gallery-image" tabindex="0" />
+        </div>
+        <div class="content">
+          <h2>Finished Prototype</h2>
+          <p>Presents the completed virtual conveyor prototype after configuration and end-to-end integration.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="image-wrap">
+          <img src="images/Connections_Problems.png" alt="Connection troubleshooting and diagnostics screen" class="gallery-image" tabindex="0" />
+        </div>
+        <div class="content">
+          <h2>Connection Diagnostics</h2>
+          <p>Captures communication and connection issues identified during testing and system synchronization.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-content">
+      <div class="lightbox-image-wrap">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button>
+        <img id="lightboxImage" src="" alt="" />
+      </div>
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">Virtual Conveyor System Capstone • Documentation Gallery</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
