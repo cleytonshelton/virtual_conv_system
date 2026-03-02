@@ -12,8 +12,8 @@ title: Virtual Conveyor System
 ---
 
 ## Project Metrics
--  Burndown rate: 2/5 (40%)
-- 5/12 Requirements
+-  Burndown rate: 2/5 (100%)
+- 5/5 Requirements
 
 ---
 
@@ -43,7 +43,7 @@ title: Virtual Conveyor System
 
 ## Week-by-Week Progress Summary
 
-- Week 4: N/A
+- Week 4: Drawings for Conveyor Layout
 - Week 5: Setting up Emulate3D on my work laptop, had a few licensing issues
 - Week 6: Started to get the hang of the software, figuring out how to get the conveyors set up and set the scripts up
 - Week 7: Made the initial system and got all the connections set up
