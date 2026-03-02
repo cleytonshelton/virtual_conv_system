@@ -12,7 +12,7 @@ title: Virtual Conveyor System
 ---
 
 ## Project Metrics
--  Burndown rate: 2/5 (100%)
+-  Burndown rate: 2/2 (100%)
 - 5/5 Requirements
 
 ---
