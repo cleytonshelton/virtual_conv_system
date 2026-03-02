@@ -17,10 +17,6 @@ title: Virtual Conveyor System
 
 ---
 
-## Features and Requirements Implemented and in Progress
-
----
-
 ## What Went Wrong
 
 - On one of the conveyors the start and end points were giving me a ton of issues. There is a function to flip them but it wasn't working on that one conveyor. 

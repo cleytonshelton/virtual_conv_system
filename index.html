@@ -17,7 +17,17 @@
             I/O connectivity, prototype development, and integration diagnostics.
           </p>
         </div>
-        <a class="page-link" href="about.html">About This Project</a>
+        <div class="header-actions">
+          <a class="page-link" href="about.html">About This Project</a>
+          <a
+            class="page-link"
+            href="https://github.com/cleytonshelton/virtual_conv_system"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View GitHub Repo
+          </a>
+        </div>
       </div>
     </div>
   </header>
@@ -64,13 +74,74 @@
         </div>
       </article>
     </section>
+
+    <h2 class="section-title">Project Videos</h2>
+    <section class="video-gallery" aria-label="Project video gallery">
+      <article class="card video-card">
+        <div class="video-wrap">
+          <video
+            src="videos/bag_thru_system.mp4"
+            class="gallery-video"
+            muted
+            autoplay
+            loop
+            playsinline
+            tabindex="0"
+            aria-label="Bag moving through system recording"
+          ></video>
+        </div>
+        <div class="content">
+          <h2>Bag Through System</h2>
+          <p>Demonstrates a full bag pass-through cycle and conveyor response behavior.</p>
+        </div>
+      </article>
+
+      <article class="card video-card">
+        <div class="video-wrap">
+          <video
+            src="videos/E3D_recording.mp4"
+            class="gallery-video"
+            muted
+            autoplay
+            loop
+            playsinline
+            tabindex="0"
+            aria-label="E3D recording of conveyor operation"
+          ></video>
+        </div>
+        <div class="content">
+          <h2>E3D Operation Recording</h2>
+          <p>Shows runtime behavior and visual state transitions from the E3D view.</p>
+        </div>
+      </article>
+
+      <article class="card video-card">
+        <div class="video-wrap">
+          <video
+            src="videos/PLC_recording.mp4"
+            class="gallery-video"
+            muted
+            autoplay
+            loop
+            playsinline
+            tabindex="0"
+            aria-label="PLC recording and conveyor logic activity"
+          ></video>
+        </div>
+        <div class="content">
+          <h2>PLC Recording</h2>
+          <p>Captures PLC-linked conveyor logic activity during system operation.</p>
+        </div>
+      </article>
+    </section>
   </main>
 
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <div class="lightbox-content">
-      <div class="lightbox-image-wrap">
-        <button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button>
+      <div class="lightbox-media-wrap">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close media">×</button>
         <img id="lightboxImage" src="" alt="" />
+        <video id="lightboxVideo" controls loop playsinline></video>
       </div>
       <div class="lightbox-caption" id="lightboxCaption"></div>
     </div>
