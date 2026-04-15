@@ -14,7 +14,7 @@ paginate: true
 ## Week 12 Goals
 
 **Progress**: 0/4 (0%)
-**Requirements**: 0/12 (100%)
+**Requirements**: 0/12 (0%)
 **Total LoC**: 100
 
 ---
