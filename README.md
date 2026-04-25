@@ -1,7 +1,36 @@
 # Virtual Conveyor System Capstone Project
 
 ## Overview
-This project implements a **Virtual Conveyor System** to simulate and control industrial conveyor operations. The system integrates **real-time monitoring, virtual control, and emulation** to provide a comprehensive environment for industrial automation training and testing.  
+This project implements a **Virtual Conveyor System** to simulate and control industrial conveyor operations. It combines **PLC logic, 3D emulation, virtual operator controls, and HMI monitoring** to create a complete training and validation environment before physical deployment.
+
+## Problem Domain
+Industrial conveyor systems are expensive to prototype, difficult to test safely, and disruptive to production when used for early-stage control validation.
+
+Core problem details:
+
+- **High cost of physical testing**: Building and modifying physical conveyor setups requires significant time, hardware, and labor.
+- **Operational risk**: Early logic mistakes can cause jams, unsafe conditions, and equipment wear.
+- **Limited safe training opportunities**: New operators need realistic practice without impacting real production.
+- **Integration complexity**: PLC logic, operator controls, sensors, and monitoring tools must stay synchronized across platforms.
+
+Success in this domain means proving conveyor behavior, operator workflows, and fault handling in a safe, repeatable, low-cost environment.
+
+## Solution Domain
+The solution is a fully virtual, integrated automation stack that mirrors a real conveyor control system.
+
+Solution approach:
+
+- **Studio 5000** provides the source-of-truth PLC ladder logic for conveyor control behavior.
+- **Emulate3D** reproduces conveyor movement and sensor responses in a synchronized 3D model.
+- **FactoryTalk View** provides virtual operator stations for start/stop and interaction workflows.
+- **Ignition HMI** presents live status, alarms, and diagnostics for monitoring and troubleshooting.
+
+Expected outcomes:
+
+- Validate control logic before physical implementation.
+- Detect and fix communication/synchronization issues earlier.
+- Demonstrate end-to-end operation (control, emulation, monitoring).
+- Support safer operator training with realistic runtime feedback.
 
 The project uses multiple software tools to achieve full system functionality:  
 
