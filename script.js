@@ -26,6 +26,7 @@ function openVideoLightbox(video) {
   lightboxImage.src = "";
   lightboxImage.alt = "";
   lightboxVideo.classList.add("show");
+  lightboxVideo.muted = true;
   lightboxVideo.src = video.currentSrc || video.src;
   lightboxVideo.currentTime = 0;
   lightboxVideo.play().catch(() => {});
@@ -57,6 +58,7 @@ galleryImages.forEach((image) => {
 });
 
 galleryVideos.forEach((video) => {
+  video.muted = true;
   video.addEventListener("click", () => openVideoLightbox(video));
   video.addEventListener("keydown", (event) => {
     if (event.key === "Enter" || event.key === " ") {

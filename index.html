@@ -74,6 +74,26 @@
           <p>Captures communication and connection issues identified during testing and system synchronization.</p>
         </div>
       </article>
+
+      <article class="card">
+        <div class="image-wrap">
+          <img src="images/MU_merge.png" alt="Motor unit merge configuration in the virtual conveyor layout" class="gallery-image" tabindex="0" />
+        </div>
+        <div class="content">
+          <h2>Motor Unit Merge</h2>
+          <p>Shows merge point configuration used to coordinate flow between converging conveyor paths.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="image-wrap">
+          <img src="images/conveyor_merge_hold.png" alt="Conveyor merge hold state used to regulate product spacing" class="gallery-image" tabindex="0" />
+        </div>
+        <div class="content">
+          <h2>Conveyor Merge Hold</h2>
+          <p>Highlights hold-state behavior at the merge to prevent collisions and maintain proper timing.</p>
+        </div>
+      </article>
     </section>
 
     <h2 class="section-title">Ignition HMI Section</h2>
@@ -120,11 +140,31 @@
 
       <article class="card">
         <div class="image-wrap">
-          <img src="images/template_binding.png" alt="Template binding configuration for reusable HMI components" class="gallery-image" tabindex="0" />
+          <img src="images/template_binding.png" alt="Template binding configuration for reusable HMI components. Ensures consistent behavior across different views." class="gallery-image" tabindex="0" />
         </div>
         <div class="content">
           <h2>Template Binding</h2>
           <p>Shows reusable template links used to keep interface behavior consistent across views.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="image-wrap">
+          <img src="images/hmi_legend.png" alt="HMI legend identifying status colors and system indicators" class="gallery-image" tabindex="0" />
+        </div>
+        <div class="content">
+          <h2>HMI Legend</h2>
+          <p>Documents color keys and status indicators so operators can quickly interpret system conditions.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="image-wrap">
+          <img src="images/hmi_jam.png" alt="HMI screen showing jam condition and system response indicators" class="gallery-image" tabindex="0" />
+        </div>
+        <div class="content">
+          <h2>HMI Jam Condition</h2>
+          <p>Displays jam-state monitoring and the corresponding interface feedback during fault handling.</p>
         </div>
       </article>
     </section>
@@ -187,6 +227,101 @@
           <p>Captures PLC-linked conveyor logic activity during system operation.</p>
         </div>
       </article>
+
+      <article class="card video-card">
+        <div class="video-wrap">
+          <video
+            src="videos/e3D_power_up.mp4"
+            class="gallery-video"
+            muted
+            autoplay
+            loop
+            playsinline
+            tabindex="0"
+            aria-label="E3D system power-up sequence"
+          ></video>
+        </div>
+        <div class="content">
+          <h2>E3D Power-Up</h2>
+          <p>Shows startup behavior as the emulated system powers on and initializes conveyor components.</p>
+        </div>
+      </article>
+
+      <article class="card video-card">
+        <div class="video-wrap">
+          <video
+            src="videos/e3d_jam.mp4"
+            class="gallery-video"
+            muted
+            autoplay
+            loop
+            playsinline
+            tabindex="0"
+            aria-label="E3D jam scenario demonstration"
+          ></video>
+        </div>
+        <div class="content">
+          <h2>E3D Jam Scenario</h2>
+          <p>Captures a simulated jam event and conveyor behavior while the fault is active.</p>
+        </div>
+      </article>
+
+      <article class="card video-card">
+        <div class="video-wrap">
+          <video
+            src="videos/HMI_status.mp4"
+            class="gallery-video"
+            muted
+            autoplay
+            loop
+            playsinline
+            tabindex="0"
+            aria-label="HMI status monitoring recording"
+          ></video>
+        </div>
+        <div class="content">
+          <h2>HMI Status Monitoring</h2>
+          <p>Demonstrates live HMI status tracking with runtime condition updates and operator visibility.</p>
+        </div>
+      </article>
+
+      <article class="card video-card">
+        <div class="video-wrap">
+          <video
+            src="videos/mu2_merge.mp4"
+            class="gallery-video"
+            muted
+            autoplay
+            loop
+            playsinline
+            tabindex="0"
+            aria-label="MU2 merge operation recording"
+          ></video>
+        </div>
+        <div class="content">
+          <h2>MU2 Merge Operation</h2>
+          <p>Shows merge-point operation focused on MU2 path behavior during product transfer.</p>
+        </div>
+      </article>
+
+      <article class="card video-card">
+        <div class="video-wrap">
+          <video
+            src="videos/mu2_merge_full.mp4"
+            class="gallery-video"
+            muted
+            autoplay
+            loop
+            playsinline
+            tabindex="0"
+            aria-label="Full MU2 merge sequence recording"
+          ></video>
+        </div>
+        <div class="content">
+          <h2>MU2 Full Merge Sequence</h2>
+          <p>Provides a complete merge sequence from approach through release for end-to-end validation.</p>
+        </div>
+      </article>
     </section>
   </main>
 
@@ -195,7 +330,7 @@
       <div class="lightbox-media-wrap">
         <button class="lightbox-close" id="lightboxClose" aria-label="Close media">×</button>
         <img id="lightboxImage" src="" alt="" />
-        <video id="lightboxVideo" controls loop playsinline></video>
+        <video id="lightboxVideo" controls loop playsinline muted></video>
       </div>
       <div class="lightbox-caption" id="lightboxCaption"></div>
     </div>
